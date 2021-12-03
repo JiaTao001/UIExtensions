@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Extensions'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'A short description of Extensions.'
 
 # This description is used to generate tags and improve search results.
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'JiaTao001' => '2233945666@qq.com' }
-  s.source           = { :git => 'git@github.com:JiaTao001/UIExtensions.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:JiaTao001/UIExtensions.git', :tag => s.version.to_s,:branch tag => 'master' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
