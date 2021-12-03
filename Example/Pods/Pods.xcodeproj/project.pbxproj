@@ -15,6 +15,7 @@
 		5DA96A226078CC15EE0954EA107F9356 /* Extensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A05E876ACD87E73A30B3F8DBA8E62651 /* Extensions-dummy.m */; };
 		64F892297D6DE7342C4A1EBDAAFE9D19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B099FF5BABF54B41821F30D1C240B3B7 /* Pods-Extensions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8062D0CCCBC20BBCF8A2DF34A8D095F /* Pods-Extensions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B792A65B2759FC8800264E13 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B792A65A2759FC8800264E13 /* UIColorExtension.swift */; };
 		C38B46EFE5B5593AE8E8F06C26C06531 /* Pods-Extensions_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5096C876FFDBEAAE8A6A112BE591A /* Pods-Extensions_Tests-dummy.m */; };
 		CCE18E3A4D2C1581B78692A4452FEC93 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C5557CE9AB2CC2BDA3DCCFEB6B5AC2 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
@@ -63,6 +64,7 @@
 		ACC041CC10E5E29650E8F6ED802B1A65 /* Pods-Extensions_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Extensions_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AD21A29F18E6E07DE95F4D0BBDF24CC3 /* Pods-Extensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Extensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AD753D43D32FA75C4DDB7888B4DCE5DA /* Pods-Extensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Extensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B792A65A2759FC8800264E13 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		C229F79E1FEEA92B0DC6A2399A2A65AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C66BE011C01B91D22FF802D4258CA092 /* Pods-Extensions_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Extensions_Example-Info.plist"; sourceTree = "<group>"; };
 		C8062D0CCCBC20BBCF8A2DF34A8D095F /* Pods-Extensions_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Extensions_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 		2A5CBDEC652B999BBB67EFC112A6E343 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				B792A65A2759FC8800264E13 /* UIColorExtension.swift */,
 				93C5557CE9AB2CC2BDA3DCCFEB6B5AC2 /* ReplaceMe.swift */,
 				F90D8F178A54413BAF54BBC3CB508FD2 /* Pod */,
 				A02E8778AA9D9D851C939393417B4C35 /* Support Files */,
@@ -369,6 +372,7 @@
 			files = (
 				5DA96A226078CC15EE0954EA107F9356 /* Extensions-dummy.m in Sources */,
 				CCE18E3A4D2C1581B78692A4452FEC93 /* ReplaceMe.swift in Sources */,
+				B792A65B2759FC8800264E13 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
