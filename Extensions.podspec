@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Extensions'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.summary          = 'A short description of Extensions.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Extensions/**/*'
+  s.source_files = 'Extensions/class/**/*'
   
   # s.resource_bundles = {
   #   'Extensions' => ['Extensions/Assets/*.png']
