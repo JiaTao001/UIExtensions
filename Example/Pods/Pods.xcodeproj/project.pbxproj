@@ -20,6 +20,9 @@
 		B7AA0B67275DA7F8004EB45D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AA0B62275DA7F8004EB45D /* LoginVC.swift */; };
 		B7AA0B68275DA7F8004EB45D /* ResetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AA0B63275DA7F8004EB45D /* ResetPasswordVC.swift */; };
 		B7AA0B69275DA7F8004EB45D /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7AA0B64275DA7F8004EB45D /* Login.storyboard */; };
+		B7AA0B6D275DAB1C004EB45D /* NavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7AA0B6A275DAB1C004EB45D /* NavigationView.xib */; };
+		B7AA0B6E275DAB1C004EB45D /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AA0B6B275DAB1C004EB45D /* NavigationView.swift */; };
+		B7AA0B6F275DAB1C004EB45D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AA0B6C275DAB1C004EB45D /* BaseViewController.swift */; };
 		C38B46EFE5B5593AE8E8F06C26C06531 /* Pods-Extensions_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5096C876FFDBEAAE8A6A112BE591A /* Pods-Extensions_Tests-dummy.m */; };
 		CCE18E3A4D2C1581B78692A4452FEC93 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C5557CE9AB2CC2BDA3DCCFEB6B5AC2 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
@@ -73,6 +76,9 @@
 		B7AA0B62275DA7F8004EB45D /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		B7AA0B63275DA7F8004EB45D /* ResetPasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordVC.swift; sourceTree = "<group>"; };
 		B7AA0B64275DA7F8004EB45D /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		B7AA0B6A275DAB1C004EB45D /* NavigationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NavigationView.xib; path = ../Extensions/Classes/NavigationView.xib; sourceTree = "<group>"; };
+		B7AA0B6B275DAB1C004EB45D /* NavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationView.swift; path = ../Extensions/Classes/NavigationView.swift; sourceTree = "<group>"; };
+		B7AA0B6C275DAB1C004EB45D /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = ../Extensions/Classes/BaseViewController.swift; sourceTree = "<group>"; };
 		C229F79E1FEEA92B0DC6A2399A2A65AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C66BE011C01B91D22FF802D4258CA092 /* Pods-Extensions_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Extensions_Example-Info.plist"; sourceTree = "<group>"; };
 		C8062D0CCCBC20BBCF8A2DF34A8D095F /* Pods-Extensions_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Extensions_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -192,6 +198,9 @@
 		B7AA0B5E275DA7F8004EB45D /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				B7AA0B6C275DAB1C004EB45D /* BaseViewController.swift */,
+				B7AA0B6B275DAB1C004EB45D /* NavigationView.swift */,
+				B7AA0B6A275DAB1C004EB45D /* NavigationView.xib */,
 				B7AA0B5F275DA7F8004EB45D /* Controller */,
 				B7AA0B64275DA7F8004EB45D /* Login.storyboard */,
 			);
@@ -388,6 +397,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7AA0B6D275DAB1C004EB45D /* NavigationView.xib in Resources */,
 				B7AA0B69275DA7F8004EB45D /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,10 +409,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7AA0B6E275DAB1C004EB45D /* NavigationView.swift in Sources */,
 				B7AA0B65275DA7F8004EB45D /* CheckEmailVC.swift in Sources */,
 				B7AA0B66275DA7F8004EB45D /* ChoseSchoolVC.swift in Sources */,
 				B7AA0B67275DA7F8004EB45D /* LoginVC.swift in Sources */,
 				5DA96A226078CC15EE0954EA107F9356 /* Extensions-dummy.m in Sources */,
+				B7AA0B6F275DAB1C004EB45D /* BaseViewController.swift in Sources */,
 				B7AA0B68275DA7F8004EB45D /* ResetPasswordVC.swift in Sources */,
 				CCE18E3A4D2C1581B78692A4452FEC93 /* ReplaceMe.swift in Sources */,
 			);
